@@ -1,0 +1,15 @@
+.DS_Store
+target
+bin
+build
+generator-output
+
+# eclipse specific
+.settings
+.classpath
+.project
+release.properties
+
+# idea specific
+*.iml
+.idea
