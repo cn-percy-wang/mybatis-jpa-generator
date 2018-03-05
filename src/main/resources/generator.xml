@@ -7,13 +7,7 @@
         2.可以引用环境变量: ${env.JAVA_HOME} or System.properties: ${user.home},property之间也可以相互引用
     </comment>
 
-    <entry key="projectGroup">cn.migu.music</entry>
-
-    <entry key="projectName">test</entry>
-
     <entry key="basepackage">cn.migu.music.test</entry>
-
-    <entry key="basecommonpackage">cn.migu.music.common</entry>
 
     <entry key="templateRoot">classpath:template</entry>
 
