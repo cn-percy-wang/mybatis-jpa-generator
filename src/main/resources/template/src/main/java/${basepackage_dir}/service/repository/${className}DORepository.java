@@ -1,9 +1,9 @@
 <#include "/java_copyright.include">
 <#assign className = table.className>
-package ${basepackage}.service.mapper;
+package ${basepackage}.service.repository;
 
 import org.springframework.data.mybatis.repository.support.MybatisRepository;
-import ${basepackage}.service.mapper.dataobject.${className}DO;
+import ${basepackage}.service.repository.dataobject.${className}DO;
 import org.springframework.stereotype.Repository;
 
 /**
