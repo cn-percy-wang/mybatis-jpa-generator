@@ -14,10 +14,10 @@
     <entry key="outRoot">generator-output</entry>
 
     <!-- 需要移除的表名前缀,使用逗号进行分隔多个前缀,示例值: t_,v_ -->
-    <entry key="tableRemovePrefixes"></entry>
+    <entry key="tableRemovePrefixes">t_migu_</entry>
 
     <entry key="jdbc_username">root</entry>
-    <entry key="jdbc_password">121212</entry>
+    <entry key="jdbc_password">123qwe!@#QWE</entry>
 
     <!-- oracle需要指定jdbc.schema,并且可能要大写，其它数据库忽略此项配置  -->
     <entry key="jdbc_schema">public</entry>
@@ -34,7 +34,7 @@
     <entry key="java_typemapping.java.sql.Clob">java.util.String</entry>
 
     <!-- Mysql -->
-    <entry key="jdbc_url">jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=UTF-8&amp;useInformationSchema=true</entry>
+    <entry key="jdbc_url">jdbc:mysql://10.25.245.121:3306/file_prod?useUnicode=true&amp;characterEncoding=UTF-8&amp;useInformationSchema=true</entry>
     <entry key="jdbc_driver">com.mysql.jdbc.Driver</entry>
 
     <!-- Oracle		jdbc:oracle:oci:@tnsname_devdb
